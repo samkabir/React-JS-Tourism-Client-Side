@@ -1,0 +1,13 @@
+.logo{
+    background-color: #ff681a;
+    border-radius: 50px;
+    height: 100%;
+    width: 75%;
+}
+.logo i{
+    margin-top:10px;
+}
+.title-orange{
+    color:#ff681a;
+    margin: 40px 20px;
+}

@@ -1,0 +1,16 @@
+.title-orange{
+    color:#ff681a!important;
+    margin: 25px 20px;
+    font-family: 'Pacifico', cursive;
+}
+.nav-link:hover{
+    color:#ff681a!important;
+}
+.btn-outline-dark{
+    border-color: white;
+}
+.btn-outline-dark:hover{
+    color:#ff681a!important;
+    background-color: white;
+    border-color: #ff681a!important;
+}

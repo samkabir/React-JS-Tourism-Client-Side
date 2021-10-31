@@ -1,0 +1,16 @@
+.mybookingrow{
+    margin: 22px 0px;
+    border: 1px solid #ff681a;
+    border-radius: 15px;
+}
+.button-custom{
+    padding: 6px 15px;
+    border-radius: 10px;
+    margin: 0px;
+    background-color: #df6a29;
+    border-color: #df6a29;
+    color: white;
+}
+.button-custom:hover{
+    background-color: #8d3e14;
+}

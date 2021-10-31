@@ -1,0 +1,6 @@
+.banner img{
+    min-height: 400px;
+}
+.carousel-indicators{
+    display: none;
+}
