@@ -8,7 +8,7 @@ const AddNewTourPlan = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data);
-        axios.post('http://localhost:5000/tourPlans', data)
+        axios.post('https://haunted-treat-31834.herokuapp.com/tourPlans', data)
         .then( res => {
             if(res.data.insertedId){
                 alert('added successfully');

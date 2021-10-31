@@ -6,7 +6,7 @@ const ManageAllBookings = () => {
     const [bookings, setBookings] = useState([])
     const [approved, setApproved] = useState(false);
     useEffect( () => {
-        fetch('http://localhost:5000/toursBooked')
+        fetch('https://haunted-treat-31834.herokuapp.com/toursBooked')
         .then(res => res.json())
         .then(data => setBookings(data))
     }, [approved])
@@ -14,7 +14,7 @@ const ManageAllBookings = () => {
     const handleDelete = id => {
         
         if(window.confirm('Are you sure?')){
-            const url = `http://localhost:5000/toursBooked/${id}`;
+            const url = `https://haunted-treat-31834.herokuapp.com/toursBooked/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })
@@ -31,7 +31,7 @@ const ManageAllBookings = () => {
     }
 
     const handleStatus = id => {
-        const url = `http://localhost:5000/toursBooked/${id}`;
+        const url = `https://haunted-treat-31834.herokuapp.com/toursBooked/${id}`;
         fetch(url, {
             method:'PUT'
         })

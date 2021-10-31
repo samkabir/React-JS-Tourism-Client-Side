@@ -9,7 +9,7 @@ const MyBookings = () => {
 
     const [bookings, setBookings] = useState([])
     useEffect( () => {
-        fetch('http://localhost:5000/toursBooked/byEmail', {
+        fetch('https://haunted-treat-31834.herokuapp.com/toursBooked/byEmail', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -22,7 +22,7 @@ const MyBookings = () => {
 
     const handleDelete = id => {
         if(window.confirm('Are you sure?')){
-            const url = `http://localhost:5000/toursBooked/${id}`;
+            const url = `https://haunted-treat-31834.herokuapp.com/toursBooked/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

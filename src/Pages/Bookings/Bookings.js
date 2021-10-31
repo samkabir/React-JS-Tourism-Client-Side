@@ -9,7 +9,7 @@ import './Bookings.css';
         const [plan, setPlan] = useState({});
         const {serviceId} = useParams();
         useEffect( () =>{
-            fetch(`http://localhost:5000/tourPlans/${serviceId}`)
+            fetch(`https://haunted-treat-31834.herokuapp.com/tourPlans/${serviceId}`)
             .then(res => res.json())
             .then(data => setPlan(data))
         }, [])
@@ -23,7 +23,7 @@ import './Bookings.css';
     const onSubmit = data => {
         data.status="Pending";
         console.log(data);
-        fetch('http://localhost:5000/toursBooked', {
+        fetch('https://haunted-treat-31834.herokuapp.com/toursBooked', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
