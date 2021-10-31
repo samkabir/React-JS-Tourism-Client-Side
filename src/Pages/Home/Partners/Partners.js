@@ -11,25 +11,25 @@ const Partners = () => {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-3 my-1">
                         <div className="logo">
                             <i className="fas fa-plane fs-1"></i>
                             <h5>Safest Travels</h5>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 my-1">
                         <div className="logo">
                             <i className="far fa-star fs-1"></i>
                             <h5>Best Reviewed Tourism Company</h5>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 my-1">
                         <div className="logo">
                             <i className="fas fa-campground fs-1"></i>
                             <h5>Camping</h5>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 my-1">
                         <div className="logo">
                             <i className="fas fa-money-bill fs-1"></i>
                             <h5>Best Trip Money Can Buy</h5>
